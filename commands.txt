@@ -2,3 +2,4 @@ cd
 rmdir
 mkdir
 ls
+grep
