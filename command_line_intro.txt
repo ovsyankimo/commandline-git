@@ -1,0 +1,74 @@
+Ask how to customize prompt
+
+$ command -options target
+
+pwd
+
+man/pwd
+
+man pwd or help pwd
+hit q to quit
+
+cd - change directory
+expects a path. if no path provided, defaults to home directory
+
+clear
+
+<tab> for autocomplete
+
+?? why do i have to hit tab twice?
+
+ls - list all the stuff in the current directory (unless you give it a command)
+
+Optional Flags:
+ls -l - lists in a list format
+ls -a - shows you hidden files and folders
+
+mkdir
+rmdir
+
+ls Documents
+
+Copy a file:
+cp <src> <dest>
+cp file.txt ~/Desktop/
+cp -r <src> <dest>
+
+cat <filename> - show full content of document
+
+less <filename> - show document in browsable
+ - use / and then type a word to search for it
+ - to get out type q
+
+Text Editors:
+pico, nano
+nano: ctrl x to save, then y and enter
+
+navigating in a command:
+- ctrl + a to go to the beginning of a command
+- ctrl + e to go to hte end
+- the arrows work here
+- tab for autocomplete
+- ctrl + c - exits command without executing the command
+
+Pipes!
+ls -ltr | less
+- redirects output of one command as the input of a second command
+
+grep - global search a regular expression and print
+grep "phrase" <file>
+
+redirecting output > & >>
+
+grep "word" file.txt >> results.txt
+
+history - list everything from the history
+
+history | grep "ls"
+
+grep -r
+grep Dir/*
+
+mkdir -p - will create needed intermediate directories
+
+git branch -a
